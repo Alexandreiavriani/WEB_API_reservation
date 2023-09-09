@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "cc25607a-424e-4d59-a03f-9089bb34a08c",
+		"name": "postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44303/api/movies/getmovie/13",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n\r\n      \"Name\": \"fwef\",\r\n        \"Genre\": \"fwefwef\",\r\n        \"Time\": \"2012-03-14T15:00:00\",\r\n        \"MoviePremiere\": \"2012-03-14T00:00:00\",\r\n        \"price\": 25\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44303/api/movies/getmovie/13",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44303",
+					"path": [
+						"api",
+						"movies",
+						"getmovie",
+						"13"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
